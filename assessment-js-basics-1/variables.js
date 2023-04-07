@@ -1,18 +1,26 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+//CODE HERE
+
+// used const because my name is not going to change
+const myName = 'Benjamin Broad';
+console.log(myName)
+
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
+// i used let here beacuse my fav number changes 
+let faveNum = 21
+console.log(faveNum)
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-
+let lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 /*
   Write an if-statement that checks if the faveNum variable is 
@@ -22,9 +30,19 @@
 
 //CODE HERE
 
+if(faveNum === 13){
+  console.log(`Lucky 13!`)
+}else{
+  console.log(`Not lucky 13`)
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
   Write a for loop that prints out your faveNum 5 times.
 */
 
 //CODE HERE
+
+for(let i=0; i < 5; i++){
+  console.log(faveNum)
+}

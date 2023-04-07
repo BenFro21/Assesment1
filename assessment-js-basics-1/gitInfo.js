@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'A version control system on your local machine'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,9 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'A version control system on the internet that interacts with git on your local machine. Mainly for colobarting with multiple developers on one project'
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +32,9 @@
 
 //CODE HERE
 
+let gitInitDefinition = 'git init initalizes a .git directory inside of the current directory you are in. you can then commit saves'
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +43,8 @@
 
 //CODE HERE
 
+let gitCloneDefinition = 'git clone brings a repository from github down to your local machine'
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +52,8 @@
 */
 
 //CODE HERE
+
+let gitStatusDefinition = 'git status checks the current stasus of your directory. IE what files need to be added and commited, what branch you are on, and if you are uptodate with the remote repo'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +66,9 @@
 
 //CODE HERE
 
+let gitAddDefinition = 'Git add prepares the un-commited file to be commited.'
+let gitAddCode = 'git add .'
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +79,9 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = 'git commit takes a snapshot of your directory in the current state it is in. Essentailly a save point'
 
+let gitCommitCode = 'git commit -m "initial commit'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +90,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = 'git push will send code you have commited on your local machine to the corisponding github repository'
